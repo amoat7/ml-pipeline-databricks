@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 29 20:27:57 2022
+# Make data base, printed on Sat Jul 30 06:49:45 2022
 
 # Variables
 
@@ -155,7 +153,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-288cc133-ad0c-410a-a997-1b4d5dcda965.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-391ec49b-acef-4e72-b61f-fa3bc3d9aee8.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -286,6 +284,9 @@ test:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 #  recipe to execute (from 'Makefile', line 33):
 	python3 -m pytest --cov app --cov-report html:coverage/html --cov-report xml:coverage/coverage.xml
 
@@ -343,12 +344,12 @@ clean: style
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 31 / storage = 264 B / avg = 8 B
-# current buf: size = 8162 B / used = 264 B / count = 31 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 31 / storage = 269 B / avg = 8 B
+# current buf: size = 8162 B / used = 269 B / count = 31 / avg = 8 B
 
 # strcache performance: lookups = 54 / hit rate = 42%
 # hash-table stats:
 # Load=31/8192=0%, Rehash=0, Collisions=1/54=2%
-# Finished Make data base on Fri Jul 29 20:27:57 2022
+# Finished Make data base on Sat Jul 30 06:49:45 2022
 
  
